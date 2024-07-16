@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap');
+
+.Navbar{
+  background-color: #334863;
+  border-bottom: 6px solid aqua;
+  
+}
+
+.LinkNav{
+  margin-top: 10px;
+  margin-left:20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 255, 255, 0.479);
+  height: 3rem;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+ 
+}
+
+.LinkNav:hover{
+  color: aqua;
+  transition: 0.5s;
+}
+
+.TitleNav{
+  font-family: 'Major Mono Display', monospace;
+  padding-left: 30px;
+  font-size: 22px;
+  color: rgba(0, 255, 255, 0.479);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.TitleNav:hover{
+  color: aqua;
+  transition: 0.5s;
+  
+}
+
+
+.DivIcons{
+  border: solid 1px;
+  height: 2rem;
+  margin-bottom: 20px;
+  margin-left: 60px;
+
+}
+
+.icon-git{
+  font-size: 30px;
+  border-radius: 5px;
+  color: rgba(0, 255, 255, 0.479);
+    margin-left: 20px;
+
+}
+
+.icon-git:hover{
+  color: #884EA0;
+  transition: 0.4s;
+  
+}
+
+.icon-linkedin{
+  font-size: 30px;
+  border-radius: 5px;
+  color: rgba(0, 255, 255, 0.479);
+  margin-left: 20px;
+
+}
+
+.icon-linkedin:hover{
+  color: #0e76a8;
+  transition: 0.4s;
+
+}
+
+.icon-instagram{
+  font-size: 30px;
+  border-radius: 5px;
+  color: rgba(0, 255, 255, 0.479);
+  margin-left: 20px;
+
+}
+
+.icon-instagram:hover{
+  transition: 0.2s;
+  color: palevioletred;
+  
+}
