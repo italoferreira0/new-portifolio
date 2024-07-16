@@ -11,6 +11,7 @@ function App() {
     <>
       <div>
         <h1>New Portifolio</h1>
+        <h2>Teste</h2>
       </div>
 
     </>
