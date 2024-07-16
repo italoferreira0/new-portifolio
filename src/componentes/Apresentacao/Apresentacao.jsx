@@ -19,12 +19,12 @@ export default function Apresentacao(props) {
                     <div >
                         <br/><br />
                         <h3>Ola, eu sou Italo.</h3>
-                        <Typical 
+                        {/* <Typical 
                             steps={['Bem-vindo ao meu portifólio.',4000,'',1000]}
                             loop={Infinity}
                             wrapper="h3"
                             className="subTextoAnimado"
-                        />
+                        /> */}
 
                         {/* <p id='paragrafro'><h2>Ola eu sou Italo</h2></p> */}
                         {/* <p><h3>Bem-vindo ao meu portifolio</h3></p> */}
