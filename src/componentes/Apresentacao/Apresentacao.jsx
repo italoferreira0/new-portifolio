@@ -12,7 +12,8 @@ export default function Apresentacao(props) {
                 <div className="col-sm DivFoto">
                     <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid'/>
                     
-                    <button className='btn Downlaod mt-4'><a href={curriculo} download>Download CV</a></button>
+                    <a href={curriculo} download><button className='btn Downlaod mt-4' >Download CV</button></a>
+                    
                     
                 </div>
                 
