@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Apresentacao from './componentes/Apresentacao/Apresentacao';
 
 
 function App() {
@@ -11,8 +12,7 @@ function App() {
     <>
       <div>
         <h1>New Portifolio</h1>
-        <h2>Teste</h2>
-        <button type="button" className='btn btn-dark'>Botão</button>
+        <Apresentacao/>
       </div>
 
     </>
