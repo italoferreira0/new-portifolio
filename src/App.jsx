@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <div>
-        <h1>New Portifolio</h1>
         <Apresentacao/>
       </div>
 
