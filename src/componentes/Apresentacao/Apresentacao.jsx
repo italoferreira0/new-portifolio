@@ -1,7 +1,7 @@
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 import React,{useState} from 'react';
 import './Apresentacao.css';
-import minhaFoto from './img/eu.jpeg'
+// import minhaFoto from './img/eu.jpeg'
 // import curriculo from './curriculo.pdf'
 
 
