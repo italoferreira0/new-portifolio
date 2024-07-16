@@ -9,7 +9,10 @@ function App() {
 
   return (
     <>
-      <h1>New Portifolio</h1>
+      <div>
+        <h1>New Portifolio</h1>
+      </div>
+
     </>
   )
 }
