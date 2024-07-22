@@ -1,35 +1,25 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import './Apresentacao.css';
 import minhaFoto from './img/eu.jpeg'
 import curriculo from './curriculo.pdf'
 
 
 export default function Apresentacao(props) {
-    
-    return(
-        <section className='container-md Apresentacao' id='home'>
-            <div class="row">
-                <div className="col-sm DivFoto">
-                    <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid'/>
-                    
-                    <a href={curriculo} download><button className='btn Downlaod mt-4' >Download CV</button></a>
-                    
-                    
+
+    return (
+        <div className='container ' id='home'>
+            <div className="row align-items-center mt-3">
+                <div className="col-sm-12 col-md-6 text-center text-md-left">
+                    <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid mt-5' />
+                    <a href={curriculo} download><button className='btn Downlaod mt-4'>Download CV</button></a>
                 </div>
-                
-                <div class="col-sm DivSaudacao">
-                    <div >
-                        <br/><br />
-                        <h3>Ola, eu sou Italo.</h3>
-                        
-                        <h3>Bem-vindo ao meu portifólio.</h3>
-                
-                    </div>
+                <div className="col-sm-12 col-md-6 text-center text-md-left mt-5">
+                    <h3>Ola, eu sou Italo.</h3>
+                    <h3>Bem-vindo ao meu portifólio.</h3>
                 </div>
-                
             </div>
-    
-                        
-        </section>
+        </div>
+
+
     )
 }

@@ -48,15 +48,15 @@
 
 }
 
-.icon-git{
+.icon-git-Nav{
   font-size: 30px;
   border-radius: 5px;
   color: rgba(0, 255, 255, 0.479);
-    margin-left: 20px;
+  margin-left: 20px;
 
 }
 
-.icon-git:hover{
+.icon-git-Nav:hover{
   color: #884EA0;
   transition: 0.4s;
   
