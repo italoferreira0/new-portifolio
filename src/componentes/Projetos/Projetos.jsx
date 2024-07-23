@@ -9,14 +9,18 @@ export default function Projetos(props) {
             <div className="row justify-content-center mt-4">
                 <div className="col-md-4 Projeto" id='ProjetoIMC'>
                    <div className="button-group">
-                       <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
-                       <button type="button" className="btn btn-dark"><a href="">Github</a></button>
+                       <button type="button" className="btn btn-dark">
+                        <a href="https://imc-react-eight.vercel.app/" target="_blank">Deploy</a></button>
+                       <button type="button" className="btn btn-dark">
+                        <a href="https://github.com/italoferreira0/imc-react" target="_blank">Github</a></button>
                    </div>
                 </div>
                 <div className="col-md-4 Projeto mr-4" id='ProjetoOEE'>
                    <div className="button-group">
-                       <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
-                       <button type="button" className="btn btn-dark"><a href="">Github</a></button>
+                       <button type="button" className="btn btn-dark">
+                        <a href="https://simulador-oee.vercel.app/" target="_blank">Deploy</a></button>
+                       <button type="button" className="btn btn-dark">
+                        <a href="https://github.com/italoferreira0/simuladorOEE" target="_blank">Github</a></button>
                    </div>
                 </div>
                 <div className="col-md-4 Projeto mr-4 SemProjeto" id=''>
