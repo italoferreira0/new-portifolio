@@ -12,7 +12,8 @@
 }
 
 h1{
-color: red;
+    color:  rgb(199, 199, 199);
+/* color: red; */
     font-family: 'DM Sans';
   font-style: normal;
   font-weight: 200;

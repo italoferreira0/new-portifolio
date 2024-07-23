@@ -4,16 +4,8 @@ p {
     font-size: 24px;
 }
 
-#ProjetoIMC {
-    background-image: url('/src/assets/ProjetoIMC.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
-    min-height: 200px; /* Altura mínima */
-}
-
 .Projeto {
-    /* margin-left: 10px; */
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,47 +30,12 @@ p {
     gap: 10px; /* Espaçamento entre os botões */
 }
 
-#projetos {
-    margin-bottom: 1rem;
+#ProjetoIMC {
+    background-image: url('/src/assets/ProjetoIMC.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    min-height: 200px; /* Altura mínima */
 }
 
-.BotaoGit {
-    background-color: #874ea0;
-    width: 5rem;
-    font-size: 16px;
-    font-weight: bold;
-    margin-right: 30px;
-    transition: 0.8;
-    margin-top: 1rem;
-}
 
-.BotaoGit:hover {
-    background-color: #aa34ddd2;
-    transition: 0.8;
-}
-
-.icon-git {
-    margin-top: 14rem;
-    font-size: 30px;
-    color: rgba(0, 255, 255, 0.479);
-}
-
-.icon-git:hover {
-    color: #8934ad;
-    transition: 0.4s;
-}
-
-.icon-deploy {
-    background-color: rgba(0, 255, 255, 0.479);
-    margin-left: 20px;
-}
-
-.icon-deploy:hover {
-    background-color: rgba(0, 255, 255, 0.726);
-    margin-left: 20px;
-}
-
-.DivIconsProjeto {
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-}
