@@ -30,6 +30,15 @@ p {
     gap: 10px; /* Espaçamento entre os botões */
 }
 
+
+/* Projetos  */
+.SemProjeto{
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    min-height: 200px; /* Altura mínima */
+}
+
 #ProjetoIMC {
     background-image: url('/src/assets/ProjetoIMC.png'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
@@ -37,5 +46,14 @@ p {
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     min-height: 200px; /* Altura mínima */
 }
+
+#ProjetoOEE {
+    background-image: url('/src/assets/ProjetoOEE.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
+    background-position:top;
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    min-height: 200px; /* Altura mínima */
+}
+
 
 

@@ -13,7 +13,31 @@ export default function Projetos(props) {
                        <button type="button" className="btn btn-dark"><a href="">Github</a></button>
                    </div>
                 </div>
-                <div className="col-md-4 Projeto mr-4" id=''>
+                <div className="col-md-4 Projeto mr-4" id='ProjetoOEE'>
+                   <div className="button-group">
+                       <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
+                       <button type="button" className="btn btn-dark"><a href="">Github</a></button>
+                   </div>
+                </div>
+                <div className="col-md-4 Projeto mr-4 SemProjeto" id=''>
+                   <div className="button-group">
+                       <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
+                       <button type="button" className="btn btn-dark"><a href="">Github</a></button>
+                   </div>
+                </div>
+                <div className="col-md-4 Projeto mr-4 SemProjeto" id=''>
+                   <div className="button-group">
+                       <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
+                       <button type="button" className="btn btn-dark"><a href="">Github</a></button>
+                   </div>
+                </div>
+                <div className="col-md-4 Projeto mr-4 SemProjeto" id=''>
+                   <div className="button-group">
+                       <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
+                       <button type="button" className="btn btn-dark"><a href="">Github</a></button>
+                   </div>
+                </div>
+                <div className="col-md-4 Projeto mr-4 SemProjeto" id=''>
                    <div className="button-group">
                        <button type="button" className="btn btn-dark"><a href="">Deploy</a></button>
                        <button type="button" className="btn btn-dark"><a href="">Github</a></button>
