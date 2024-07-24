@@ -1,0 +1,20 @@
+.DivP1{
+    /* margin-top: 5rem; */
+    height: 35rem;   
+    /* border: solid 1px; */
+}
+.DivP2{
+    margin-top: 5rem;
+    padding-left: 2rem;
+    /* border: solid 1px; */
+    height: 35rem;    
+
+}
+
+.paragrafo{  
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 22px;
+    color:  rgb(199, 199, 199);
+
+}
