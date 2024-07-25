@@ -7,7 +7,7 @@ import curriculo from './curriculo.pdf'
 export default function Apresentacao(props) {
 
     return (
-        <div className='container mb-5' id='home'><br />
+        <div className='container mb-1' id='home'><br />
             <div className="row align-items-center mt-1">
                 <div className="col-sm-12 col-md-6 text-center text-md-left">
                     <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid mt-5' />
@@ -19,7 +19,7 @@ export default function Apresentacao(props) {
                 </div>
                 
             </div>
-            <br />
+            
         </div>
 
 

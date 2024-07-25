@@ -6,7 +6,7 @@ import Apresentacao from './componentes/Apresentacao/Apresentacao';
 import Navbar from './componentes/Navbar/Navbar';
 import Sobre from './componentes/Sobre/Sobre';
 import Projetos from './componentes/Projetos/Projetos';
-
+import Tecnologias from './componentes/Tecnologias/Tecnologias';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +18,7 @@ function App() {
         <Apresentacao/>
         <Sobre/>
         <Projetos/>
+        <Tecnologias/>
       </div>
 
 
