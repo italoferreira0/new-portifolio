@@ -7,19 +7,20 @@ import Navbar from './componentes/Navbar/Navbar';
 import Sobre from './componentes/Sobre/Sobre';
 import Projetos from './componentes/Projetos/Projetos';
 import Tecnologias from './componentes/Tecnologias/Tecnologias';
+import Footer from './componentes/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <Navbar/>
-        <Apresentacao/>
-        <Sobre/>
-        <Projetos/>
-        <Tecnologias/>
-      </div>
+
+      <Navbar />
+      <Apresentacao />
+      <Sobre />
+      <Projetos />
+      <Tecnologias />
+      <Footer />
 
 
     </>

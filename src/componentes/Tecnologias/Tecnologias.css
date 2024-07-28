@@ -1,13 +1,26 @@
 .Icon {
-
     margin-top: 10px;
-    margin-left: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     width: 90px;
     height: 90px;
     cursor: pointer;
+    transition: filter 0.5s ease-in-out; /* Aumenta ainda mais a duração */
+}
+
+.Icon:hover {
+    filter: brightness(0.2) invert(1); /* Muda a imagem para branco */
 }
 
 .Descricao {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    text-align: center; /* Centraliza o texto */
+}
+
+@media (max-width: 767px) {
+    .Descricao {
+        font-size: 1.2rem; /* Ajusta o tamanho da fonte para telas menores */
+        margin: 0 auto; /* Centraliza a margem */
+        padding: 1rem; /* Adiciona padding para espaçamento */
+        text-align: center; /* Garante que o texto esteja centralizado */
+    }
 }
